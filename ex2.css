@@ -1,7 +1,26 @@
 body{
     background: cyan;
+    margin: 0;
 }
 h1{
-  background: blue;
   font-family: sans-serif;
+}
+
+header{
+  background: blue;
+  color: white;
+}
+
+header section input{
+  display: inline-block;
+  margin-left: 60%;
+}
+
+header section button{
+  display: inline-block;
+}
+
+header section h1{
+  display: inline-block;
+  margin: 0;
 }
