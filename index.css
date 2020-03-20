@@ -1,7 +1,13 @@
 body{
     background: cyan;
     margin: 10;
+    /* color: white; */
 }
+
+/* a{
+    color: white;
+} */
+
 h1{
   font-family: sans-serif;
 }
@@ -48,7 +54,7 @@ header section#buscador{
   }
   img{
     width: 400px;
-    height: 300px;
+    height: 200px;
   }
 
   header section#buscador{
@@ -79,13 +85,14 @@ header section#buscador{
   }
 }
 
-@media screen and (min-width: 501px) and (max-width: 600px){
+@media screen and (min-width: 501px) and (max-width: 800px){
   body{
     background: purple;
+    color: white;
   }
   img{
     width: 500px;
-    height: 200px;
+    height: 300px;
   }
 
   header section#buscador{
@@ -106,5 +113,9 @@ header section#buscador{
     color: white;
     width: 80px;
     height: 20px;
+  }
+
+  a{
+    color: white;
   }
 }
