@@ -43,18 +43,20 @@ header section#buscador{
 
 /* Media Querys */
 @media screen and (min-width: 0px) and (max-width: 500px){
+  body{
+    background: green;
+  }
   img{
     width: 400px;
     height: 300px;
   }
 
-  header section input{
-    display: inline-block;
-    margin-left: 0%;
-  }
 }
 
 @media screen and (min-width: 501px) and (max-width: 600px){
+  body{
+    background: purple;
+  }
   img{
     width: 500px;
     height: 200px;
