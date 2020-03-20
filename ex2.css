@@ -1,26 +1,62 @@
 body{
     background: cyan;
-    margin: 0;
+    margin: 10;
 }
 h1{
   font-family: sans-serif;
 }
 
+/* Header */
 header{
   background: blue;
   color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 header section input{
-  display: inline-block;
-  margin-left: 60%;
+  width: 300px;
+  height: 20px;
+  margin-right: -2px;
 }
 
 header section button{
-  display: inline-block;
+  background: black;
+  border: none;
+  color: white;
+  width: 80px;
+  height: 20px;
 }
 
-header section h1{
+header section#logo{
   display: inline-block;
   margin: 0;
+  text-align: center;
+  width: 30%
+}
+
+header section#buscador{
+  display: inline-block;
+  width: 60%
+  text-align: right;
+}
+
+/* Media Querys */
+@media screen and (min-width: 0px) and (max-width: 500px){
+  img{
+    width: 400px;
+    height: 300px;
+  }
+
+  header section input{
+    display: inline-block;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px){
+  img{
+    width: 500px;
+    height: 200px;
+  }
 }
