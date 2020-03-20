@@ -51,6 +51,32 @@ header section#buscador{
     height: 300px;
   }
 
+  header section#buscador{
+    display: inline-block;
+    width: 40%
+    text-align: right;
+  }
+
+  header section input{
+    width: 200px;
+    height: 20px;
+    margin-right: -2px;
+  }
+
+  header section button{
+    background: black;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 20px;
+  }
+
+  header section h1#logo{
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    margin: 20;
+  }
 }
 
 @media screen and (min-width: 501px) and (max-width: 600px){
@@ -60,5 +86,25 @@ header section#buscador{
   img{
     width: 500px;
     height: 200px;
+  }
+
+  header section#buscador{
+    display: inline-block;
+    width: 40%
+    text-align: right;
+  }
+
+  header section input{
+    width: 220px;
+    height: 20px;
+    margin-right: -2px;
+  }
+
+  header section button{
+    background: black;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 20px;
   }
 }

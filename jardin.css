@@ -1,0 +1,51 @@
+body{
+  background: #1EC665;
+  color: black;
+}
+
+img{
+    width: 700px;
+    height: 700px;
+}
+
+header {
+  font-family: 'Oswald', sans-serif;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+}
+
+@media screen and (min-width:0px) and (max-width:500px){
+  img{
+    width: 400px;
+    height: 400px;
+  }
+  body{
+    background: red;
+    color: white;
+  }
+  a{
+    color:white;
+  }
+  header{
+    text-align: center;
+  }
+}
+
+@media screen and (min-width:501px) and (max-width:800px){
+  img{
+    width: 500px;
+    height: 500px;
+  }
+  body{
+    background: blue;
+    color: white;
+  }
+  a{
+    color:white;
+  }
+  header{
+    text-align: center;
+  }
+}
